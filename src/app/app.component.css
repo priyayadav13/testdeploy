@@ -1,0 +1,218 @@
+.description {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.modal-content {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    width: 54%;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+}
+
+button.add-button .checkmark {
+    color: white !important;
+}
+
+.add-button:hover {
+    background-color: darkgreen;
+    height: 28px;
+    line-height: 20px !important;
+    /* Darken button on hover */
+}
+
+.cancel-button {
+    color: #e40046;
+    border: 1px solid #e40046;
+    height: 28px;
+    line-height: 20px !important;
+    margin-left: 20px;
+}
+
+.form-separator {
+    margin: 20px 0;
+    height: 1px;
+    width: 462px;
+    border-bottom: 1px solid #aecade;
+}
+
+.form-control {
+    background-color: white;
+}
+
+.icon-group {
+    /* display: flex;
+    flex-flow: row;
+    align-items: end;
+    position: absolute;
+    right: 26%; */
+    padding-bottom: 0;
+    float: right;
+}
+
+.description-label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.tag-button {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 13px;
+}
+
+.form-group-type>label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.form-control {
+    display: block;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #aecade;
+    font-size: inherit;
+    margin: 0;
+    width: 462px;
+}
+
+input.form-control {
+    height: 22px;
+    line-height: 22px;
+}
+
+.form-description {
+    color: #979797;
+    font-size: 13px;
+    margin-top: 4px;
+    line-height: 1.4;
+    width: 450px;
+}
+
+.form-group-type {
+    margin-bottom: 18px;
+}
+
+.pull-left {
+    float: left;
+    line-height: 1.4;
+}
+
+.pull-right {
+    float: right;
+    color: #333;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.form-description {
+    color: #979797;
+    font-size: 13px;
+    margin-top: 4px;
+    line-height: 1.4;
+    width: 450px;
+}
+
+.text-ref {
+    width: 462px;
+}
+
+.form-separator {
+    margin: 20px 0;
+    height: 1px;
+    width: 462px;
+    border-bottom: 1px solid #8ebfe2;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group>label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.dropdown-size {
+    width: 462px;
+}
+
+.form-select {
+    height: 22px;
+    width: 462px;
+    line-height: 22px;
+}
+
+.form-description {
+    color: #979797;
+    font-size: 13px;
+    margin-top: 4px;
+    line-height: 1.4;
+    width: 450px;
+}
+
+div.radio {
+    padding-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.radio>label {
+    display: inline;
+    cursor: pointer;
+    font-weight: normal !important;
+    line-height: 13px;
+}
+
+.radio>label>input {
+    position: absolute;
+    height: 26PX;
+    width: 13px;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+
+.radio>label>p {
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+p {
+    padding: 0;
+    line-height: 140%;
+}
+
+.form-control-default {
+    width: 462px;
+    font-size: 14px;
+}
+
+input {
+    padding: 0;
+}
+
+.button-group {
+    display: flex;
+    flex-flow: row;
+
+}
