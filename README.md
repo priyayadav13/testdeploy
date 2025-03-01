@@ -1,3 +1,17 @@
+# Simple Form
+
+This is a simple form project deployed on Vercel.
+
+## 🚀 Live Demo
+
+Check out the deployed project here: https://forms-structure-hxteyu8wp-priyas-projects-cef27f36.vercel.app/
+
+## 📌 Features
+
+- Basic form with input fields
+- Responsive design
+- Deployed on Vercel for easy access
+
 # FormsStructure
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
